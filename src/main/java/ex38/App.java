@@ -4,5 +4,16 @@
  */
 package ex38;
 
+import java.util.Scanner;
+
 public class App {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter a list of numbers, separated by spaces: ");
+        String input = in.nextLine();
+        String[] original = input.split(" ");
+        array = new int[original.length];
+
+    }
 }
