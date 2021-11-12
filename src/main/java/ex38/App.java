@@ -13,7 +13,7 @@ public class App {
         System.out.print("Enter a list of numbers, separated by spaces: ");
         String input = in.nextLine();
         String[] original = input.split(" ");
-        array = new int[original.length];
+
 
     }
 }
